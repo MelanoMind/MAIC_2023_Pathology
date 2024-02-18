@@ -55,13 +55,28 @@
 
 #### File
 
-├─── EDA
-│─── process_data
-├─── AB_MIL
-│─── DSMIL
-├─── TabNet
-│─── AC_MIL
-│─── MHIM_MIL
+```
+    ├─── EDA
+    │   ├── EDA.ipynb
+    │─── data_process
+    │   ├── split_dataset.ipynb
+    │   ├── dataset2pkl_train.py
+    │   ├── dataset2pkl_test_public.py
+    │─── check_status
+    │   ├── check_capacity.ipynb
+    │   ├── check_file_status.ipynb
+    │   ├── check_fold_patches.ipynb
+    │   ├── check_gpu.ipynb
+    ├─── AB_MIL
+    │─── DSMIL
+    ├─── TabNet
+    │─── AC_MIL
+    │─── MHIM_MIL
+    │   ├── camelyon16
+    │   ├── modules
+    │   ├── ...
+
+```
 
 #### Wrap-up Report
 
