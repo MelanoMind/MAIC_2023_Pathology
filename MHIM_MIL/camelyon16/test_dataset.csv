@@ -1,0 +1,11 @@
+Slide_name,Patient_ID,Recurrence,Location,Diagnosis,Growth phase,Size of tumor,Depth of invasion,Level of invasion,Mitosis,Histologic subtype,Tumor cell type,Surgical margin,Lymph node,Breslow thickness,Precursor lesion,Date_of_diagnosis
+normal_016,train_pid_015,0,,,,,,,,,,,,,,
+normal_017,train_pid_015,0,,,,,,,,,,,,,,
+normal_018,train_pid_016,0,,,,,,,,,,,,,,
+normal_019,train_pid_016,0,,,,,,,,,,,,,,
+normal_020,train_pid_016,0,,,,,,,,,,,,,,
+tumor_016,train_pid_017,1,,,,,,,,,,,,,,
+tumor_017,train_pid_017,1,,,,,,,,,,,,,,
+tumor_018,train_pid_018,1,,,,,,,,,,,,,,
+tumor_019,train_pid_018,1,,,,,,,,,,,,,,
+tumor_020,train_pid_018,1,,,,,,,,,,,,,,
