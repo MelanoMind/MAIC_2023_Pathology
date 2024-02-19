@@ -10,9 +10,9 @@
 
 #### Team Members
 
-| <img src="" width="80"> | <img src="https://avatars.githubusercontent.com/u/70469008?v=4" width="80"> | <img src="https://avatars.githubusercontent.com/u/126538370?v=4" width="80"> | <img src="https://avatars.githubusercontent.com/u/78690390?v=4" width="80"> | <img src="https://avatars.githubusercontent.com/u/7111986?v=4" width="80"> |
-| :---------------------: | :-------------------------------------------------------------------------: | :--------------------------------------------------------------------------: | :-------------------------------------------------------------------------: | :------------------------------------------------------------------------: |
-|       [박성현]()        |                  [박혜나](https://github.com/hyenagatha02)                  |                    [신건희](https://github.com/Rigel0718)                    |                  [신중현](https://github.com/Blackeyes0u0)                  |                    [한상준](https://github.com/jphan32)                    |
+| <img src="https://avatars.githubusercontent.com/u/58927933?v=4" width="80"> | <img src="https://avatars.githubusercontent.com/u/70469008?v=4" width="80"> | <img src="https://avatars.githubusercontent.com/u/126538370?v=4" width="80"> | <img src="https://avatars.githubusercontent.com/u/78690390?v=4" width="80"> | <img src="https://avatars.githubusercontent.com/u/7111986?v=4" width="80"> |
+| :-------------------------------------------------------------------------: | :-------------------------------------------------------------------------: | :--------------------------------------------------------------------------: | :-------------------------------------------------------------------------: | :------------------------------------------------------------------------: |
+|                   [박성현](https://github.com/Puer-Hyun)                    |                  [박혜나](https://github.com/hyenagatha02)                  |                    [신건희](https://github.com/Rigel0718)                    |                  [신중현](https://github.com/Blackeyes0u0)                  |                    [한상준](https://github.com/jphan32)                    |
 
 <br/>
 
