@@ -78,15 +78,11 @@
 
 ```
 
-#### Wrap-up Report
-
-- (need to be added)
-
 #### 평가 Metric
 
 - AUROC for recurrence prediction on a per-patient basis
 
-### Reference papers
+#### Reference papers
 
 - [A Simple Framework for Contrastive Learning of Visual Representations](https://arxiv.org/abs/2002.05709)
 - [Attention-based Deep Multiple Instance Learning](https://arxiv.org/abs/1802.04712)
