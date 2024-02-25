@@ -24,10 +24,10 @@ $$
 
 As above, the result of introducing attention and learning well is expressed as below. Each instance is expressed as a small patch, and when the patch is multiplied by the attention, it is expressed as d. The more pronounced it is, the higher the attention is (patch).
 
-**Problem**
+>**Problem**
 However, when we extract instance embeddings through Resnet during learning and check the attention, we observe that the attention of the instance is spread evenly and cannot concentrate on one.
 
-**Solutions**
+>**Solutions**
 It was concluded that the pretrained model should be fine tuned as a solution. Therefore, Binary classification was set as objective function for recurrence for each instance and the backbone was finetuned, and when the finetuned backbone and AB-MIL were applied, I observed that it was well-attentioned. In other words, it was confirmed that 90% attention was applied to the top 50% of instances.
 
 Results: Due to lack of time, I used only 1/5 of the entire dataset, and when I submitted it by learning as above, I found 0.42. If I had learned it with the entire dataset and appropriate normalization and augmentation, wouldn't it have resulted in better results.
