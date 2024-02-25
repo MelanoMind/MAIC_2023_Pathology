@@ -54,7 +54,7 @@ $$
 여기서 $a_k$는 $k번째$ 인스턴스의 어텐션을 의미하고 $h_k$는 인스턴스의 임베딩을 의미합니다. 어텐션의 식은 다음과 같습니다.
 
 $$
-a_k=\frac{\exp \left\{\mathbf{w}^{\top} \tanh \left(\mathbf{V} \mathbf{h}_k^{\top}\right)\right\}}{\sum_{j=1}^K \exp \left\{\mathbf{w}^{\top} \tanh \left(\mathbf{V h}_j^{\top}\right)\right\}}
+a_k=\frac{\exp{w^{\top} \tanh V h_k^{\top}}}{\sum_{j=1}^K \exp w^{\top} \tanh V h_j^{\top}}
 $$
 
 위처럼 어텐션을 도입해서 잘 학습이 된결과는 아래처럼 표현 됩니다. 각 하나하나의 인스턴스들은 작은 패치로 표현이 되고, 패치에 어탠션을 곱하면 d처럼 나타내집니다. 뚜렷할수록 어텐션이 높은 인스턴스(패치)입니다.
