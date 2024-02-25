@@ -70,7 +70,6 @@
     ├─── AB_MIL
     │─── DSMIL
     ├─── TabNet
-    │─── AC_MIL
     │─── MHIM_MIL
     │   ├── camelyon16
     │   ├── modules
