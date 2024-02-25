@@ -19,7 +19,7 @@ Here $a_k$ stands for the attention of the $kth$ instance and $h_k$ stands for t
 
 
 $$
-a_k=\frac{\exp{w^{\top} \tanh V h_k^{\top}}}{\sum_{j=1}^K \exp w^{\top} \tanh V h_j^{\top}}
+a_k=\frac{\exp{w^{\top} \tanh V h_k^{\top}}}{\sum_{j} \exp w^{\top} \tanh V h_j^{\top}}
 $$
 
 As above, the result of introducing attention and learning well is expressed as below. Each instance is expressed as a small patch, and when the patch is multiplied by the attention, it is expressed as d. The more pronounced it is, the higher the attention is (patch).
