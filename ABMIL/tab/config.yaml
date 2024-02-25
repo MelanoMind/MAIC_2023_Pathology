@@ -1,0 +1,43 @@
+defaults:
+  - _self_
+  - model: config
+  - path: config
+  - dataset: config
+
+# 모델 및 훈련 파라미터 설정
+model:
+  n_splits: 10
+  max_epochs: 2000
+  patience: 200
+  fill_numerical_values_method: "means"
+  folding_strategy : "kf"
+  random_state: 56
+  cat_emb_dim: 3
+  optimizer_fn: "torch.optim.Adam"
+  lr_unsupervised: 2e-2
+  lr_trained : 2e-3
+  n_shared_decoder: 2
+  n_indep_decoder: 2
+  batch_size: 512
+  batch_size_training: 512
+  virtual_batch_size: 128
+  virtual_batch_size_training : 128
+  pretraining_ratio: 0.4
+  weights: {0:0.2, 1:0.8}
+  verbose: 100
+
+path:
+  model_dir : '/home/admin/seonghyun/tabnet_models/trained_model/2024-01-21_06-40-21' #가변
+  dataset_dir : '/home/admin/seonghyun/randomdataset'
+  original_dataFrame_dir : "/home/admin/seonghyun/dataset.csv"
+  path_to_save_pretrained_model: "/home/admin/seonghyun/tabnet_models/semi_pretrained_model"
+  path_to_save_trained_model : /home/admin/seonghyun/tabnet_models/trained_model
+  path_to_save_prediction_result : /home/admin/seonghyun/tabnet_models/test_predictions
+  path_to_slide_list_dict : /home/admin/seonghyun/slide_list_dict.json
+  path_to_recurrence_dict : /home/admin/seonghyun/recurrence_dict.json
+  path_to_save_train_img_object : /home/admin/seonghyun/train_img_data
+  path_to_save_test_img_object : /home/admin/seonghyun/test_img_data
+  path_to_save_custom_loader : /home/admin/seonghyun/custom_loader/
+
+dataset:
+  size_to_split : 50
