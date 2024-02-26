@@ -1,0 +1,9 @@
+python -m app.modules.metadata_process.metadata_process.py
+
+python -m app.modules.imagedata_process_before_train_simclr_model.downloadAndSaveWSIImageIntoOneDictionary
+python -m app.modules.imagedata_process_before_train_simclr_model.split_wsi_dict_to_train_test_dataset
+python -m app.modules.imagedata_process_before_train_simclr_model.chunk_image_dataset
+
+python -m app.modules.simclr.train
+python -m app.modules.simclr.transform_and_save_wsi_image_to_wsi_embedding
+python -m app.modules.simclr.transform_each_wsi_embedding_to_each_patient_embedding
