@@ -70,10 +70,12 @@
     ├─── AB_MIL
     │─── DSMIL
     ├─── TabNet
+    │   ├── app
+    │   │   ├── lib
+    │   │   ├── modules
     │─── MHIM_MIL
     │   ├── camelyon16
     │   ├── modules
-    │   ├── ...
 
 ```
 
